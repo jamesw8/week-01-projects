@@ -1,3 +1,9 @@
+@media (max-width: 991px) {
+	.cookies img {
+		margin: 0 auto;
+	}
+}
+
 .jumbotron { 
 	position: absolute;
 	top: 50%;
@@ -10,17 +16,16 @@
 	border-radius: 10px;
 }
 
+#about {
+	text-align: center;
+	padding-bottom:0;
+	margin-bottom:0p;
+}
 #banner {
 	height: 400px;
 	background: url("../img/milkbg.jpg") no-repeat center #00f;
 	background-size: cover;
 	position:relative;
-}
-
-@media (max-width: 991px) {
-	.cookies img {
-		margin: 0 auto;
-	}
 }
 
 #contact-us {
@@ -31,16 +36,29 @@
 #about-us {
 	background-color: #607d8b;
 	color: white;
-	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
 .row {
+	margin-left: 0px;
+	margin-right: 0px;
 	padding-top: 20px;
 	padding-bottom: 30px;
 }
 
+.container-fluid {
+	background-color: #e2a5df;
+	margin: 0;
+	padding: 0;
+}
+
 .cookies {
 	padding-bottom: 10px;
+}
+
+.description {
+	background-color:;
 }
 
 .center {
@@ -49,6 +67,27 @@
 	left: 34%;
 }
 
+h1 {
+	font-family: 'Lobster';
+}
+
 h2 {
+	color: white;
 	display: inline;
+	font-family: 'Lobster';
+	font-size: 300%;
+}
+
+h3 {
+	color: white;
+	font-family: 'Baloo Tammudu', cursive;
+}
+
+p {
+	font-family: 'Chewy';
+	font-size: 125%;
+}
+
+hr {
+	border-top: 2px dashed white;
 }
