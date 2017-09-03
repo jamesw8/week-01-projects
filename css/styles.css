@@ -19,7 +19,6 @@
 
 @media (max-width: 991px) {
 	.cookies img {
-		text-align: center;
 		margin: 0 auto;
 	}
 }
@@ -39,7 +38,7 @@
 }
 
 .cookies {
-	/*padding-bottom: 10px;*/
+	padding-bottom: 10px;
 }
 
 .center {
