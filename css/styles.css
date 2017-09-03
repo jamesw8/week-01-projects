@@ -10,13 +10,19 @@
 	border-radius: 10px;
 }
 
-#banner { 
+#banner {
 	height: 400px;
 	background: url("../img/milkbg.jpg") no-repeat center #00f;
 	background-size: cover;
 	position:relative;
 }
 
+@media (max-width: 991px) {
+	.cookies img {
+		text-align: center;
+		margin: 0 auto;
+	}
+}
 #contact-us {
 	background-color: #2196f3;
 	color: white;
@@ -40,5 +46,8 @@
 	position: relative;
 	top: 50%;
 	left: 34%;
-	/*transform: translateY(-50%) translateX(-50%);*/
+}
+
+h2 {
+	display: inline;
 }
