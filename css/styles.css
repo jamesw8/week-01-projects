@@ -17,11 +17,12 @@
 	position:relative;
 }
 
-/*@media (max-width: 991px) {
+@media (max-width: 991px) {
 	.cookies img {
 		margin: 0 auto;
 	}
-}*/
+}
+
 #contact-us {
 	background-color: #2196f3;
 	color: white;
