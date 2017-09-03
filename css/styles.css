@@ -1,1 +1,44 @@
+.jumbotron { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	background-color: black;
+	margin: 0 auto;
+	opacity: 0.6;
+	color: white;
+	border-radius: 10px;
+}
 
+#banner { 
+	height: 400px;
+	background: url("../img/milkbg.jpg") no-repeat center #00f;
+	background-size: cover;
+	position:relative;
+}
+
+#contact-us {
+	background-color: #2196f3;
+	color: white;
+}
+
+#about-us {
+	background-color: #607d8b;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.row {
+	padding-bottom: 30px;
+}
+
+.cookies {
+	/*padding-bottom: 10px;*/
+}
+
+.center {
+	position: relative;
+	top: 50%;
+	left: 34%;
+	/*transform: translateY(-50%) translateX(-50%);*/
+}
